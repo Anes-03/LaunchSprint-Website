@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <title>LaunchSprint - Der schnellste Weg zu deinen Apps</title>
+  <meta name="description" content="LaunchSprint ist ein macOS Menu-Bar Launcher mit Suche, Ordnern, Drag-and-Drop und Tastatursteuerung. Starte Apps sofort und bleib im Flow." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <div class="glow"></div>
+    <div class="glow secondary"></div>
+
+    <header>
+      <div class="logo">LaunchSprint</div>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#flow">Flow</a>
+        <a href="#custom">Custom</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <h1>Dein Startpunkt für Apps. Sofort. Ohne Kontextwechsel.</h1>
+          <p>
+            LaunchSprint ist ein macOS Menu-Bar Launcher, der sich in deinen Flow einfügt. Öffne
+            deine App-Gitteransicht mit einem Shortcut, tippe ein paar Buchstaben und starte sofort.
+          </p>
+          <div class="hero-actions">
+            <a class="cta" href="#cta">Beta anfragen</a>
+            <a class="ghost" href="#features">So funktioniert es</a>
+          </div>
+          <div class="hero-meta">
+            <div class="pill">Menu-Bar Icon + Hotkey</div>
+            <div class="pill">Suche, Ordner, Drag-and-Drop</div>
+            <div class="pill">Tastatur first</div>
+          </div>
+        </div>
+        <div class="app-frame" aria-label="LaunchSprint Vorschau">
+          <div class="window-bar">
+            <div class="window-dot"></div>
+            <div class="window-dot"></div>
+            <div class="window-dot"></div>
+          </div>
+          <div class="search">Search apps, folders, settings...</div>
+          <div class="grid">
+            <div class="icon-card"><div class="icon"></div>Notion</div>
+            <div class="icon-card"><div class="icon"></div>Figma</div>
+            <div class="icon-card"><div class="icon"></div>Mail</div>
+            <div class="icon-card"><div class="icon"></div>Safari</div>
+            <div class="icon-card"><div class="icon folder"></div>Tools</div>
+            <div class="icon-card"><div class="icon"></div>Calendar</div>
+            <div class="icon-card"><div class="icon"></div>Slack</div>
+            <div class="icon-card"><div class="icon"></div>Notes</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features">
+        <h2 class="section-title">Schneller als dein Dock.</h2>
+        <p class="section-sub">
+          LaunchSprint setzt auf Geschwindigkeit, Fokus und eine ruhige, glasklare UI. Du bleibst
+          in deinem Kontext und findest jede App in Sekunden.
+        </p>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <circle cx="11" cy="11" r="6"></circle>
+                <path d="M20 20l-3.5-3.5"></path>
+              </svg>
+            </div>
+            <h3>Suche in Echtzeit</h3>
+            <p>Tippe und filtere sofort. Keine Ladezeiten, keine Ablenkung.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <rect x="3" y="4" width="7" height="7" rx="2"></rect>
+                <rect x="14" y="4" width="7" height="7" rx="2"></rect>
+                <rect x="3" y="13" width="7" height="7" rx="2"></rect>
+                <rect x="14" y="13" width="7" height="7" rx="2"></rect>
+              </svg>
+            </div>
+            <h3>Grid + Ordner</h3>
+            <p>Baue dir dein eigenes Raster, lege Ordner an und halte Ordnung.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M4 12h16"></path>
+                <path d="M12 4v16"></path>
+              </svg>
+            </div>
+            <h3>Drag-and-Drop</h3>
+            <p>Sortiere Apps manuell, gruppiere nach Workflow und bleib flexibel.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M5 12h14"></path>
+                <path d="M12 5v14"></path>
+                <path d="M7 7l10 10"></path>
+              </svg>
+            </div>
+            <h3>Hotkey bereit</h3>
+            <p>Open/Close mit <kbd>ctrl</kbd> <kbd>option</kbd> <kbd>command</kbd> <kbd>L</kbd>.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="flow">
+        <div class="split">
+          <div>
+            <h2 class="section-title">Ein Flow in drei Schritten.</h2>
+            <p class="section-sub">
+              Schnell, klar, und so leise wie möglich. LaunchSprint verschwindet, wenn du es nicht
+              brauchst, und ist da, wenn du es willst.
+            </p>
+            <div class="steps">
+              <div class="step">
+                <span>01</span>
+                <h3>Öffnen</h3>
+                <p>Menu-Bar Icon oder globaler Hotkey. Keine App-Wechsel.</p>
+              </div>
+              <div class="step">
+                <span>02</span>
+                <h3>Suchen</h3>
+                <p>Ein paar Buchstaben und die Auswahl schrumpft sofort.</p>
+              </div>
+              <div class="step">
+                <span>03</span>
+                <h3>Starten</h3>
+                <p>Mit den Pfeiltasten selektieren und Enter drücken.</p>
+              </div>
+            </div>
+          </div>
+          <div class="settings-card">
+            <h3>Designed für Fokus</h3>
+            <p>
+              Glassmorphism, klare Hierarchien und eine UI, die sich an deinen Screen anpasst.
+            </p>
+            <ul>
+              <li>Vollbild oder Fenster-Modus</li>
+              <li>Icon Größe und Highlight-Farbe anpassen</li>
+              <li>Layouts automatisch speichern</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="custom">
+        <h2 class="section-title">Dein Launcher, dein Layout.</h2>
+        <p class="section-sub">
+          Ordner, eigene Reihenfolge, schnelle Anpassungen. LaunchSprint respektiert deinen
+          Workflow und lässt dich jederzeit umorganisieren.
+        </p>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>Custom Ordnung</h3>
+            <p>Manuelle Sortierung wird gespeichert und beim Start wiederhergestellt.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Folder Overlays</h3>
+            <p>Apps in Ordnern, Namen ändern, und schnell wieder zurück.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Settings Panel</h3>
+            <p>Slide-in Settings für Größe, Farbe, Modus und Reset.</p>
+          </article>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div>LaunchSprint für macOS.</div>
+      <div>Built for speed, built for focus.</div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
